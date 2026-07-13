@@ -1,0 +1,139 @@
+[
+  {
+    "id": "pulse",
+    "no": "01",
+    "title": "Pulse of Europe",
+    "cat": "Plakat & Flyer",
+    "year": "2019",
+    "role": "Konzept & Gestaltung",
+    "desc": "Plakat und Faltflyer für die Kundgebungen der überparteilichen Bürgerbewegung Pulse of Europe auf dem Berliner Gendarmenmarkt.",
+    "images": [
+      "assets/images/projects/pulse-1.webp",
+      "assets/images/projects/pulse-2.webp"
+    ]
+  },
+  {
+    "id": "urby",
+    "no": "02",
+    "title": "Urby Bike Berlin",
+    "cat": "Logo & Werbung",
+    "year": "—",
+    "role": "Gestaltung",
+    "desc": "Redesign des Logos sowie Plakate, Flyer und Bewertungskarten für den Berliner Fahrradverleih und Tour-Anbieter Urby Bike.",
+    "images": [
+      "assets/images/projects/urby-1.webp",
+      "assets/images/projects/urby-2.webp",
+      "assets/images/projects/urby-3.webp",
+      "assets/images/projects/urby-4.webp",
+      "assets/images/projects/urby-5.webp"
+    ]
+  },
+  {
+    "id": "organic",
+    "no": "03",
+    "title": "Organic Village",
+    "cat": "Kalender",
+    "year": "2018",
+    "role": "Gestaltung",
+    "desc": "Kalender 2018 zum Thema „Recovery von Menschen mit psychischen Beeinträchtigungen“.",
+    "images": [
+      "assets/images/projects/organic-1.webp",
+      "assets/images/projects/organic-2.webp"
+    ]
+  },
+  {
+    "id": "offene",
+    "no": "04",
+    "title": "Offene Kirche",
+    "cat": "Editorial",
+    "year": "2024",
+    "role": "Konzept & Satz",
+    "desc": "Gestaltung des Gemeindefaltblatts „Offene Kirche“ für die Nachbarschaft der Gemeinde Neu-Westend.",
+    "images": [
+      "assets/images/projects/offene-1.webp",
+      "assets/images/projects/offene-2.webp",
+      "assets/images/projects/offene-3.webp"
+    ]
+  },
+  {
+    "id": "schlachtensee",
+    "no": "05",
+    "title": "Ev. Gemeinde Schlachtensee",
+    "cat": "Logo & Plakat",
+    "year": "2019",
+    "role": "Gestaltung",
+    "desc": "Logo und Plakate für die Evangelische Gemeinde Schlachtensee – u. a. für die Jugendgruppe NeunZwölf, das Mittwochscafé und die Veranstaltungsreihe in der Johanneskirche.",
+    "images": [
+      "assets/images/projects/schlachtensee-1.webp",
+      "assets/images/projects/schlachtensee-2.webp",
+      "assets/images/projects/schlachtensee-3.webp"
+    ]
+  },
+  {
+    "id": "cafe",
+    "no": "06",
+    "title": "Café in Nachbars Garten",
+    "cat": "Flyer & Plakat",
+    "year": "—",
+    "role": "Gestaltung",
+    "desc": "Flyer und Plakat für das monatliche Nachbarschaftscafé der Evangelischen Stephanus-Kirchengemeinde Berlin-Zehlendorf.",
+    "images": [
+      "assets/images/projects/cafe-1.webp",
+      "assets/images/projects/cafe-2.webp"
+    ]
+  },
+  {
+    "id": "einladung",
+    "no": "07",
+    "title": "Einladungskarten",
+    "cat": "Einladungskarten",
+    "year": "—",
+    "role": "Gestaltung",
+    "desc": "Einladungskarten für unterschiedliche Anlässe und Veranstaltungen.",
+    "images": [
+      "assets/images/projects/einladung-1.webp",
+      "assets/images/projects/einladung-2.webp",
+      "assets/images/projects/einladung-3.webp",
+      "assets/images/projects/einladung-4.webp",
+      "assets/images/projects/einladung-5.webp",
+      "assets/images/projects/einladung-6.webp"
+    ]
+  },
+  {
+    "id": "potsdam",
+    "no": "08",
+    "title": "Reise nach Potsdam",
+    "cat": "Flyer",
+    "year": "2020",
+    "role": "Gestaltung",
+    "desc": "Reiseflyer für den Rotary Club zur Reise nach Potsdam (4.–7. Juni 2020).",
+    "images": [
+      "assets/images/projects/potsdam-1.webp"
+    ]
+  },
+  {
+    "id": "logos",
+    "no": "09",
+    "title": "Logos",
+    "cat": "Logos",
+    "year": "—",
+    "role": "Gestaltung",
+    "desc": "Logoentwürfe, u. a. für den „Runden Tisch“ und die „Queersensible Gemeinde“.",
+    "images": [
+      "assets/images/projects/logos-1.webp",
+      "assets/images/projects/logos-2.webp"
+    ]
+  },
+  {
+    "id": "welcome",
+    "no": "10",
+    "title": "Welcome!",
+    "cat": "Flyer",
+    "year": "—",
+    "role": "Gestaltung",
+    "desc": "Onboarding-Flyer „Welcome!“.",
+    "images": [
+      "assets/images/projects/welcome-1.webp"
+    ]
+  }
+]
