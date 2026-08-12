@@ -21,8 +21,7 @@
   .view.active{display:block}
   @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
   .lede{padding-block:clamp(40px,7vw,84px) clamp(24px,3.5vw,40px)}
-  .lede .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-  .lede h1{font-size:clamp(26px,4.6vw,52px);font-weight:500;line-height:1.04;letter-spacing:-.03em;max-width:18ch}
+  .lede img{display:block;width:100%;max-width:100%;height:auto}
   .index-grid{display:grid;grid-template-columns:1fr 0.82fr;gap:clamp(24px,4vw,60px);align-items:start;padding-bottom:90px}
   ol.works{list-style:none;border-top:1px solid var(--line)}
   .work{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:baseline;padding:clamp(15px,1.9vw,22px) clamp(10px,1.6vw,18px);background:transparent;border:0;border-bottom:1px solid var(--line);cursor:pointer;color:var(--ink);width:100%;text-align:left;transition:background .18s var(--ease),color .18s var(--ease),padding-left .25s var(--ease)}
@@ -63,6 +62,10 @@
   .k-grid p{font-size:15px;line-height:1.7;color:var(--ink-soft)}
   .k-grid a{border-bottom:1px solid transparent}
   .k-grid a:hover{border-color:var(--ink)}
+  .kontakt-foot{border-top:1px solid var(--line);margin-top:clamp(30px,5vw,52px);padding-block:20px 4px}
+  .kontakt-foot p{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--muted)}
+  .kontakt-foot button{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:transparent;transition:color .18s var(--ease),text-decoration-color .18s var(--ease)}
+  .kontakt-foot button:hover,.kontakt-foot button:focus-visible{color:var(--ink);text-decoration-color:var(--ink)}
   .impressum{border-top:1px solid var(--line);margin-top:clamp(30px,5vw,52px);padding-top:28px}
   .impressum h3{font-family:"IBM Plex Mono",monospace;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:14px}
   .impressum p{font-size:15px;line-height:1.7;color:var(--ink-soft)}

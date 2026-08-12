@@ -25,6 +25,7 @@ function openProject(i){
 document.getElementById("prevBtn").onclick=()=>openProject((current-1+projects.length)%projects.length);
 document.getElementById("nextBtn").onclick=()=>openProject((current+1)%projects.length);
 document.getElementById("backBtn").onclick=()=>{show("index");setNav("index");};
+document.getElementById("impressumLink").onclick=()=>{show("impressum");setNav("impressum");window.scrollTo(0,0);};
 function show(name){document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));document.getElementById("view-"+name).classList.add("active");}
 function setNav(name){document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.nav===name));}
 document.querySelectorAll("nav button").forEach(b=>{b.onclick=()=>{const n=b.dataset.nav;show(n);setNav(n);window.scrollTo(0,0);};});
