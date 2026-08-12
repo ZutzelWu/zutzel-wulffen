@@ -115,7 +115,8 @@
   .contact-item:hover .contact-dot,.contact-item:focus-visible .contact-dot{transform:scale(1.3);filter:brightness(1.15)}
   .foot button{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:transparent;transition:color .18s var(--ease),text-decoration-color .18s var(--ease)}
   .foot button:hover,.foot button:focus-visible{color:var(--ink);text-decoration-color:var(--ink)}
-  .foot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding-block:24px;font-family:var(--font-body);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-body)}
+  .foot{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;padding-block:24px;padding-inline:var(--header-pad);font-family:var(--font-body);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-body)}
+  .foot>span:last-child{margin-inline-start:auto}
   /* Breakpoints der Seite: 820px (Tablet-Umbruch für die zweispaltigen
      Grids) und 640px (Header-Padding auf Mobile). Hartcodiert statt als
      Custom Property, da @media keine var() im Selector unterstützt. */
