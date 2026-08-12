@@ -6,35 +6,29 @@
 <title>Sophie von Wulffen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/vfx5inv.css">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <header>
-  <div class="wrap bar">
-    <div class="logo" id="logo" role="button" tabindex="0">Sophie von Wulffen <span class="mark" role="img" aria-label="Grafikdesign">GRAFIKDESIGN</span></div>
+  <div class="bar">
+    <div class="logo" id="logo" role="button" tabindex="0">Sophie von Wulffen</div>
     <nav>
-      <button data-nav="index" class="on">Projekte</button>
+      <button data-nav="projekte">Projekte</button>
+      <button data-nav="ueber-mich">Über mich</button>
       <button data-nav="kontakt">Kontakt</button>
     </nav>
   </div>
 </header>
 <main>
   <section class="view active" id="view-index">
-    <div class="wrap">
-      <div class="lede">
-        <img src="assets/images/landingpage-hero.png" alt="Grafikdesign — Sophie von Wulffen" width="3600" height="1248">
-      </div>
-      <div class="index-grid">
-        <ol class="works" id="works"></ol>
-        <aside class="preview" aria-hidden="true">
-          <div class="preview-frame" id="previewFrame"></div>
-          <div class="preview-meta" id="previewMeta">
-            <p class="preview-hint">Über ein Projekt fahren für die Vorschau.</p>
-          </div>
-        </aside>
-      </div>
-    </div>
+    <button type="button" class="hero-link" id="heroLink" aria-label="Zu den Projekten">
+      <img src="assets/images/landingpage-hero.png" alt="" width="3600" height="1248">
+    </button>
+  </section>
+  <section class="view" id="view-projekte">
+    <div class="projekte-grid" id="works"></div>
   </section>
   <section class="view" id="view-project">
     <div class="wrap">
@@ -42,24 +36,54 @@
       <div class="p-head"><h2 id="pTitle"></h2></div>
       <dl class="p-meta" id="pMeta"></dl>
       <p class="p-intro" id="pIntro"></p>
+      <div class="case-block" id="pProblem"></div>
       <div class="gallery" id="pGallery"></div>
+      <div class="case-block" id="pProzess"></div>
+      <div class="case-block" id="pErgebnis"></div>
       <div class="pager">
         <button id="prevBtn"><div class="pg-lbl">← Vorheriges</div><div class="pg-ttl" id="prevTtl"></div></button>
         <button id="nextBtn"><div class="pg-lbl">Nächstes →</div><div class="pg-ttl" id="nextTtl"></div></button>
       </div>
     </div>
   </section>
-  <section class="view" id="view-kontakt">
+  <section class="view" id="view-ueber-mich">
     <div class="wrap kontakt">
-      <p class="big">Kontakt</p>
-      <div class="k-grid">
-        <div><h3>E-Mail</h3><p><a href="mailto:sophie@wulffen.com">sophie@wulffen.com</a></p></div>
-        <div><h3>Telefon</h3><p><a href="tel:+4917640288377">+49 176 4028 8377</a></p></div>
-        <div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/sophie-von-wulffen-b25923418" target="_blank" rel="noopener">Sophie von Wulffen ↗</a></p></div>
+      <p class="big">Über mich</p>
+      <p class="p-intro">[Platzhalter: Kurzer Teaser-Text, der Sophie von Wulffen und ihre Design-Haltung in ein bis zwei Sätzen vorstellt.]</p>
+      <div class="about-grid">
+        <div class="about-photo" aria-hidden="true"><span>Foto folgt</span></div>
+        <div class="about-text">
+          <p>[Platzhalter: Kurzer Bio-Text über Sophie von Wulffen — Werdegang, Ausbildung und Haltung zum Design.]</p>
+          <h3>Skills</h3>
+          <ul class="skills">
+            <li>Grafikdesign</li>
+            <li>Editorial Design</li>
+            <li>Logo &amp; Branding</li>
+            <li>Layout &amp; Satz</li>
+          </ul>
+        </div>
       </div>
-      <footer class="kontakt-foot">
-        <p>© 2026 Sophie von Wulffen · <button type="button" id="impressumLink">Impressum</button></p>
-      </footer>
+      <button type="button" class="cta-btn" id="ctaKontakt">Kontakt aufnehmen →</button>
+    </div>
+  </section>
+  <section class="view" id="view-kontakt">
+    <div class="wrap kontakt contact-page">
+      <p class="big">Kontakt</p>
+      <p class="contact-intro">Lust auf ein gemeinsames Projekt? Meld dich.</p>
+      <div class="contact-list">
+        <a class="contact-item" href="mailto:sophie@wulffen.com">
+          <span class="contact-label"><span class="contact-dot" style="background:#CF5762"></span>E-Mail</span>
+          <span class="contact-value">sophie@wulffen.com</span>
+        </a>
+        <a class="contact-item" href="tel:+4917640288377">
+          <span class="contact-label"><span class="contact-dot" style="background:#8C4587"></span>Telefon</span>
+          <span class="contact-value">+49 176 4028 8377</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/sophie-von-wulffen-b25923418" target="_blank" rel="noopener">
+          <span class="contact-label"><span class="contact-dot" style="background:#799899"></span>LinkedIn</span>
+          <span class="contact-value">Sophie von Wulffen ↗</span>
+        </a>
+      </div>
     </div>
   </section>
   <section class="view" id="view-impressum">
@@ -72,7 +96,7 @@
     </div>
   </section>
 </main>
-<footer><div class="wrap foot"><span>© 2026 Sophie von Wulffen</span><span>Grafikdesign · Berlin</span></div></footer>
+<footer><div class="wrap foot"><span>© 2026 Sophie von Wulffen<button type="button" id="impressumLink" hidden> · Impressum</button></span><span>Grafikdesign · Berlin</span></div></footer>
 <script src="assets/js/main.js" defer></script>
 </body>
 </html>

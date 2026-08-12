@@ -2,11 +2,18 @@
   {
     "id": "pulse",
     "no": "01",
+    "highlight": true,
     "title": "Pulse of Europe",
     "cat": "Plakat & Flyer",
     "year": "2019",
     "role": "Konzept & Gestaltung",
     "desc": "Plakat und Faltflyer für die Kundgebungen der überparteilichen Bürgerbewegung Pulse of Europe auf dem Berliner Gendarmenmarkt.",
+    "problemstellung": "Anlass waren die Kundgebungen der überparteilichen Bürgerbewegung Pulse of Europe auf dem Berliner Gendarmenmarkt.",
+    "prozess": [
+      "Konzeption",
+      "Gestaltung von Plakat und Faltflyer"
+    ],
+    "ergebnis": "Entstanden sind ein Plakat und ein Faltflyer für die Kundgebungen.",
     "images": [
       "assets/images/projects/pulse-1.webp",
       "assets/images/projects/pulse-2.webp"
@@ -15,11 +22,15 @@
   {
     "id": "urby",
     "no": "02",
+    "highlight": true,
     "title": "Urby Bike Berlin",
     "cat": "Logo & Werbung",
     "year": "—",
     "role": "Gestaltung",
     "desc": "Redesign des Logos sowie Plakate, Flyer und Bewertungskarten für den Berliner Fahrradverleih und Tour-Anbieter Urby Bike.",
+    "problemstellung": "Anlass war der Berliner Fahrradverleih und Tour-Anbieter Urby Bike, für den das bestehende Logo überarbeitet werden sollte.",
+    "prozess": [],
+    "ergebnis": "Entstanden sind ein Logo-Redesign sowie Plakate, Flyer und Bewertungskarten.",
     "images": [
       "assets/images/projects/urby-1.webp",
       "assets/images/projects/urby-2.webp",
@@ -31,11 +42,15 @@
   {
     "id": "organic",
     "no": "03",
+    "highlight": true,
     "title": "Organic Village",
     "cat": "Kalender",
     "year": "2018",
     "role": "Gestaltung",
     "desc": "Kalender 2018 zum Thema „Recovery von Menschen mit psychischen Beeinträchtigungen“.",
+    "problemstellung": "Thema war „Recovery von Menschen mit psychischen Beeinträchtigungen“.",
+    "prozess": [],
+    "ergebnis": "Entstanden ist ein Kalender für das Jahr 2018 zu diesem Thema.",
     "images": [
       "assets/images/projects/organic-1.webp",
       "assets/images/projects/organic-2.webp"
@@ -44,11 +59,18 @@
   {
     "id": "offene",
     "no": "04",
+    "highlight": false,
     "title": "Offene Kirche",
     "cat": "Editorial",
     "year": "2024",
     "role": "Konzept & Satz",
     "desc": "Gestaltung des Gemeindefaltblatts „Offene Kirche“ für die Nachbarschaft der Gemeinde Neu-Westend.",
+    "problemstellung": "Anlass war das Gemeindefaltblatt „Offene Kirche“ für die Nachbarschaft der Gemeinde Neu-Westend.",
+    "prozess": [
+      "Konzeption",
+      "Satz und Gestaltung des Faltblatts"
+    ],
+    "ergebnis": "Entstanden sind Satz und Gestaltung des Faltblatts „Offene Kirche“.",
     "images": [
       "assets/images/projects/offene-1.webp",
       "assets/images/projects/offene-2.webp",
@@ -58,11 +80,15 @@
   {
     "id": "schlachtensee",
     "no": "05",
+    "highlight": false,
     "title": "Ev. Gemeinde Schlachtensee",
     "cat": "Logo & Plakat",
     "year": "2019",
     "role": "Gestaltung",
     "desc": "Logo und Plakate für die Evangelische Gemeinde Schlachtensee – u. a. für die Jugendgruppe NeunZwölf, das Mittwochscafé und die Veranstaltungsreihe in der Johanneskirche.",
+    "problemstellung": "Anlass war die Evangelische Gemeinde Schlachtensee mit ihren Angeboten – u. a. der Jugendgruppe NeunZwölf, dem Mittwochscafé und der Veranstaltungsreihe in der Johanneskirche.",
+    "prozess": [],
+    "ergebnis": "Entstanden sind ein Logo und Plakate für die Gemeinde und ihre Angebote.",
     "images": [
       "assets/images/projects/schlachtensee-1.webp",
       "assets/images/projects/schlachtensee-2.webp",
@@ -72,11 +98,15 @@
   {
     "id": "cafe",
     "no": "06",
+    "highlight": false,
     "title": "Café in Nachbars Garten",
     "cat": "Flyer & Plakat",
     "year": "—",
     "role": "Gestaltung",
     "desc": "Flyer und Plakat für das monatliche Nachbarschaftscafé der Evangelischen Stephanus-Kirchengemeinde Berlin-Zehlendorf.",
+    "problemstellung": "Anlass war das monatliche Nachbarschaftscafé der Evangelischen Stephanus-Kirchengemeinde Berlin-Zehlendorf.",
+    "prozess": [],
+    "ergebnis": "Entstanden sind Flyer und Plakat für das Nachbarschaftscafé.",
     "images": [
       "assets/images/projects/cafe-1.webp",
       "assets/images/projects/cafe-2.webp"
@@ -85,11 +115,15 @@
   {
     "id": "einladung",
     "no": "07",
+    "highlight": false,
     "title": "Einladungskarten",
     "cat": "Einladungskarten",
     "year": "—",
     "role": "Gestaltung",
     "desc": "Einladungskarten für unterschiedliche Anlässe und Veranstaltungen.",
+    "problemstellung": "",
+    "prozess": [],
+    "ergebnis": "Entstanden sind Einladungskarten für unterschiedliche Anlässe und Veranstaltungen.",
     "images": [
       "assets/images/projects/einladung-1.webp",
       "assets/images/projects/einladung-2.webp",
@@ -102,11 +136,15 @@
   {
     "id": "potsdam",
     "no": "08",
+    "highlight": false,
     "title": "Reise nach Potsdam",
     "cat": "Flyer",
     "year": "2020",
     "role": "Gestaltung",
     "desc": "Reiseflyer für den Rotary Club zur Reise nach Potsdam (4.–7. Juni 2020).",
+    "problemstellung": "Anlass war eine Reise des Rotary Club nach Potsdam vom 4. bis 7. Juni 2020.",
+    "prozess": [],
+    "ergebnis": "Entstanden ist ein Reiseflyer für den Rotary Club.",
     "images": [
       "assets/images/projects/potsdam-1.webp"
     ]
@@ -114,11 +152,15 @@
   {
     "id": "logos",
     "no": "09",
+    "highlight": false,
     "title": "Logos",
     "cat": "Logos",
     "year": "—",
     "role": "Gestaltung",
     "desc": "Logoentwürfe, u. a. für den „Runden Tisch“ und die „Queersensible Gemeinde“.",
+    "problemstellung": "",
+    "prozess": [],
+    "ergebnis": "Entstanden sind Logoentwürfe, u. a. für den „Runden Tisch“ und die „Queersensible Gemeinde“.",
     "images": [
       "assets/images/projects/logos-1.webp",
       "assets/images/projects/logos-2.webp"
@@ -127,11 +169,15 @@
   {
     "id": "welcome",
     "no": "10",
+    "highlight": false,
     "title": "Welcome!",
     "cat": "Flyer",
     "year": "—",
     "role": "Gestaltung",
     "desc": "Onboarding-Flyer „Welcome!“.",
+    "problemstellung": "",
+    "prozess": [],
+    "ergebnis": "Entstanden ist der Onboarding-Flyer „Welcome!“.",
     "images": [
       "assets/images/projects/welcome-1.webp"
     ]
